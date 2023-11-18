@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import sys
 
-from scry_args import parse_args
-from scry_data import get_cards_from_query
-from scry_output import print_data
+from .scry_args import parse_args
+from .scry_data import get_cards_from_query
+from .scry_output import print_data
 
 
 def main():

@@ -1,6 +1,6 @@
 import time
 
-from scry_data import get_json_data_from_url
+from .scry_data import get_json_data_from_url
 
 
 PRINT_FLAGS = {

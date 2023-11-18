@@ -1,6 +1,6 @@
-from scry_api import get_api_url_from_query, get_api_data_from_url
-from scry_cache import load_url_from_cache, write_url_to_cache
-from scry_cache import CACHE_FLAGS
+from .scry_api import get_api_url_from_query, get_api_data_from_url
+from .scry_cache import load_url_from_cache, write_url_to_cache
+from .scry_cache import CACHE_FLAGS
 
 
 def get_cards_from_query(query):

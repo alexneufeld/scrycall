@@ -1,9 +1,9 @@
 import sys
 
-from scry_cache import clean_cache, delete_cache
-from scry_cache import CACHE_FLAGS
-from scry_help import print_help, print_help_format
-from scry_output import PRINT_FLAGS
+from .scry_cache import clean_cache, delete_cache
+from .scry_cache import CACHE_FLAGS
+from .scry_help import print_help, print_help_format
+from .scry_output import PRINT_FLAGS
 
 
 def parse_args(args):
